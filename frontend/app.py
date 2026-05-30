@@ -5,7 +5,7 @@ import streamlit as st
 
 API_BASE_URL = os.getenv(
     "API_BASE_URL",
-    "http://localhost:8000"
+    "https://hack-fte-54z9.onrender.com"
 )
 
 st.set_page_config(
