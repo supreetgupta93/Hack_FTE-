@@ -5,7 +5,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from backend.scraper import enrich_company
+from backend import enrich_company
 
 
 app = FastAPI(
